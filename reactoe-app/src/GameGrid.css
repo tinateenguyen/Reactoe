@@ -44,6 +44,10 @@ div.column {
   width: 160px;
   height: 160px;
   margin: auto;
-  background: url("https://www.alux.com/wp-content/uploads/2017/06/PSY-Net-Worth-e1497550923287.jpg");
-  background-size: cover;
+  /*background: url("https://www.alux.com/wp-content/uploads/2017/06/PSY-Net-Worth-e1497550923287.jpg");*/
+  /*background-size: cover;*/
+}
+
+h5 {
+  font-size: 75px;
 }
