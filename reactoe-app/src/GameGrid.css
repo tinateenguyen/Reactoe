@@ -1,0 +1,49 @@
+.GridPanel{
+  background-color: antiqueWhite;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+
+#showgrid {
+  height: 75vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (min-device-width:485px) {
+  div#showgrid {
+    width: 485px;
+    margin: auto;
+  }
+}
+
+div.column {
+  border-style: solid;
+  border-width: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  width: 100%;
+  margin: auto;
+}
+
+@media (min-device-width: 485px) {
+  .column {
+    width: 160px;
+    height: 160px;
+    display: inline;
+    float: left;
+  }
+}
+
+.column {
+  width: 160px;
+  height: 160px;
+  margin: auto;
+  background: url("https://www.alux.com/wp-content/uploads/2017/06/PSY-Net-Worth-e1497550923287.jpg");
+  background-size: cover;
+}
